@@ -121,13 +121,16 @@ a {
 }
 
 .reset {
-  cursor: pointer;
+  border: none;
   background: transparent;
-  color: red;
+  color: #d0021b;
   display: block;
   width: 100%;
   text-align: center;
-  border: none;
+}
+
+.reset:hover {
+  cursor: pointer;
 }
 
 .nav li {
